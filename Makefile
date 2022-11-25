@@ -6,8 +6,7 @@ VENV_BIN = $(VENV_DIR)/bin/activate
 all: server
 
 server:
-	# @. $(VENV_BIN); $(PYTHON_VERS) src/manage.py runserver
-	# uvicorn
+	@. $(VENV_BIN); uvicorn app.main:app --reload
 
 requirements:
 	@. $(VENV_BIN); pip install --upgrade pip setuptools wheel
