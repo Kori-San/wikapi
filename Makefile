@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-PYTHON_VERS = python3.9
+PYTHON_VERS = python3.10
 VENV_DIR = .venv
 VENV_BIN = $(VENV_DIR)/bin/activate
 
