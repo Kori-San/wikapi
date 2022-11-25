@@ -3,6 +3,7 @@
 
 # IDE's cache
 .vscode/
+.idea/
 
 # Python's cache
 __pycache__/
